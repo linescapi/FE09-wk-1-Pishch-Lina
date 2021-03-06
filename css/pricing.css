@@ -1,0 +1,91 @@
+.pricing {
+  width: 100%;
+  background-color: #f5f5f5;
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 100px;
+}
+.pricing-container {
+  max-width: 1170px;
+}
+.pricing-title {
+  text-align: center;
+  padding-top: 80px;
+  color: #212121;
+}
+.pricing-line {
+  max-width: 64px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.pricing-description {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #868788;
+  margin-top: 30px;
+}
+.pricing-row {
+  text-align: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.pricing-item {
+  display: inline-block;
+  width: 340px;
+  margin-top: 67px;
+  margin-left: 15px;
+  margin-right: 15px;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.list-type {
+ background-color: #333333;
+}
+h5 {
+ font-family: 'Open Sans', sans-serif; 
+ font-style: normal;
+ font-weight: bold;
+ font-size: 20px;
+ text-align: center;
+ line-height: 50px;
+ color: #ffffff;
+}
+.list-price {
+  background-color: #333;
+  margin-top: 1px;
+}
+h3 {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 35px;
+  line-height: 100px;
+  text-align: center;
+  color: #ffffff;
+}
+.list-free {
+  background-color: #333333;
+  margin-top: 1px;
+}
+.optima {
+  background-color: #D98943;
+}
+h6 {
+  font-family: 'Open Sans', sans-serif; 
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 50px;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.5);
+}
+.list {
+  font-weight: 400;
+  background-color: #ffffff;
+  color: #86878B;
+  margin-top: 1px;
+}
+.item-list {
+  font-family: 'Open Sans', sans-serif;
+  line-height: 40px;
+}
