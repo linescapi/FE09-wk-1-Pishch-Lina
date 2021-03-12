@@ -4,6 +4,7 @@
 @import url("../css/axure.css");
 @import url("../css/header.css");
 @import url("../css/footer.css");
+@import url("../css/social-media.css");
 
 * {
     margin: 0;
@@ -32,4 +33,3 @@ header {
     font-size: 36px;
     line-height: 42px;
 }
-
