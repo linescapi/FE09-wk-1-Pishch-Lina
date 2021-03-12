@@ -32,7 +32,7 @@
 .navigation {
  display: inline-block;
  margin: auto;
- margin-right: 100px;
+ text-align: right;
 }
 a {
   font-family: 'Open Sans', sans-serif; 
@@ -43,6 +43,10 @@ a {
   text-align: center;
   color: rgba(255, 255, 255, 0.7);
 }
+nav {
+  float: right;
+  padding-top: 10px;
+}
 .navigation-list {
   margin: auto;
   display: flex;
@@ -51,9 +55,9 @@ a {
   text-align: right;
   align-items: flex-end;
   justify-content: space-between;
-  position: absolute;
+  /*position: absolute;
   top: 35px;
-  right: 100px;
+  left: 500px;*/
 }
 .nav-list {
   margin: 0 24px 0 24px;
