@@ -1,0 +1,118 @@
+.contacts {
+  width: 100%;
+  padding-bottom: 100px;
+  background-color: #fff;
+}
+.contacts-title {
+  text-align: center;
+  padding-top: 100px;
+  color: #212121;
+  text-transform: uppercase;
+}
+.contacts-title::after {
+  content: "";
+  width: 64px;
+  height: 1px;
+  background-color: #EC7979;
+  display: block;
+  margin: 25px auto;
+}
+.contacts-description {
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  color: #868788;
+  margin-top: 30px;
+}
+.contact-us_form {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: 57px;
+}
+.contentform-left {
+  width: 40%;
+  padding: 0px 55px;
+}
+.c_form-label {
+  margin: auto;
+  text-align: left;
+}
+#c_name {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+}
+#c_email {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+}
+#c_password {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+}
+.form-c_label {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  color: #bdbdbd;
+  margin-top: 45px;
+  margin-bottom: 15px;
+}
+.contentform-right {
+  width: 40%;
+  padding: 0px 55px;
+}
+.form-message {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#c_message {
+  height: 170px;
+  width: 100%;
+  resize: none;
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+}
+.c_label_message {
+  align-self: flex-start;
+}
+.contact-button {
+  padding-top: 68px;
+  max-width: 167px;
+  align-items: center;
+  margin: auto;
+}
+.c_form-button {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  background-color: #EC7979;
+  border: 1px solid #EC7979;
+  box-sizing: border-box;
+  padding: 11px 26px;
+  outline: none;
+  text-transform: capitalize;
+  transition: 0.3s ease;
+}
+.c_form-button:hover {
+  transform: scale(1.2, 1.2);
+}
+.button-send {
+  color: #fff;
+}
+.button-send:hover {
+  color: #fff;
+  border: none;
+}

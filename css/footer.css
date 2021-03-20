@@ -1,8 +1,6 @@
-.footer-section {
-  width: 100%;
-  padding-bottom: 30px;
-  background-color: #000;
-  text-align: center;
+.footer-container {
+  margin: auto;
+  max-width: 1170px;
 }
 .footer-list {
   padding-top: 20px;
@@ -16,20 +14,24 @@
   margin: auto;
 }
 .footer-item {
-  display: inline-block;
   font-size: 20px;
   color: rgba(255, 255, 255, 0.7);
-}
-.footer-item:hover {
-  transform: scale(2, 2);
   transition: 0.3s ease;
 }
+.footer-item:hover {
+  color: #86878B;
+  border: none;
+}
 i {
-  display: inline-block;
   margin: 0 15px 0 15px;
 }
+.footer-icon:hover {
+  transform: scale(2, 2);
+}
+.footer-icon {
+  transition: 0.3s ease;
+}
 .footer-text {
-  display: inline-block;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 400;

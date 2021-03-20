@@ -1,0 +1,218 @@
+.axit {
+  width: 100%;
+  background-image: url("../images/background_axit.png");
+  background-size: cover;
+  background-position: center;
+}
+.axit-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 110px;
+}
+.axit-main_left {
+  max-width: 50%;
+  padding: 0px 15px 65px 15px;
+}
+.axit-logo {
+  display: flex;
+  flex-direction: row;
+}
+.logo-left {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 70px;
+  color: #FFFFFF;
+  text-transform: uppercase;
+}
+.logo-right {
+  text-align: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 70px;
+  color: #ec7979;
+  text-transform: uppercase;
+}
+.axit-title {
+  font-family: 'Raleway', sans-serif;
+  font-style: normal;
+  text-align: left;
+  font-size: 36px;
+  line-height: 42px;
+  padding-top: 60px;
+  color: #fff;
+  max-width: 550px;
+  text-transform: uppercase;
+}
+.axit-title::after {
+  content: "";
+  width: 64px;
+  height: 1px;
+  background-color: #fff;
+  display: block;
+  margin-top: 50px;
+}
+.axit-description {
+  margin-top: 50px;
+}
+.axit-text {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  text-align: left;
+  font-size: 16px;
+  color: #868788;
+  max-width: 350px;
+}
+.axit-download {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 42px;
+  color: #fff;
+  text-align: center;
+  margin: auto;
+  background: none;
+  border: 1px solid #fff;
+  box-sizing: border-box;
+  padding: 0 26px 0 26px;
+  outline: none;
+}
+.axit-button {
+  margin-top: 57px;
+  max-width: 100px;
+  text-align: center;
+  transition: 0.3s ease;
+}
+.axit-button:hover {
+  transform: scale(1.2, 1.2);
+}
+.axit-main_right {
+  max-width: 50%;
+  padding: 0px 15px 65px 15px;
+  align-items: center;
+}
+.formname {
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 700;
+  font-style: normal;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
+  line-height: 27px;
+  color:#000;
+  margin: auto;
+  margin-top: 15px;
+}
+.middle {
+  color: #EC7979;
+  text-transform: uppercase;
+}
+.axit-form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #FFFFFF;
+  border: 0px solid #fff;
+  border-radius: 8px;
+  max-width: 370px;
+  max-height: 370px;
+}
+.form-body {
+  padding: 30px 50px 70px 50px;
+  width: 280px;
+}
+.axit-formname {
+  margin: auto;
+}
+.form-item {
+  width: 100%;
+  margin:  auto;
+}
+.form-label {
+  margin: auto;
+  text-align: left;
+}
+#name {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  width: 100%;
+}
+#email {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  width: 100%;
+}
+#password {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid #bdbdbd;
+  width: 100%;
+}
+input {
+  width: 100%;
+}
+.axit-form_button {
+  background-color: #EC7979;
+  border: 1px solid #EC7979;
+  border-radius: 0px 0px 8px 8px;
+  align-self: flex-end;
+  width: 100%;
+  font-family: 'Open Sans', sans-serif; 
+  font-weight: 600;
+  font-size: 15px;
+  line-height: 20px;
+  text-align: center;
+  color: #fff;
+  padding: 15px 0px;
+  margin: auto;
+}
+.button-start {
+  color: #fff;
+}
+.button-start:hover {
+  color: #fff;
+  border: none;
+}
+.label_name {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #bdbdbd;
+  margin-top: 25px;
+}
+.label_email {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #bdbdbd;
+  margin-top: 25px;
+}
+.label_password {
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  align-items: center;
+  color: #bdbdbd;
+  margin-top: 25px;
+}
