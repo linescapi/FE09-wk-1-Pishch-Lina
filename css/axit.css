@@ -95,6 +95,7 @@
   transform: scale(1.2, 1.2);
 }
 .axit-main_right {
+  margin-right: 15px;
   max-width: 50%;
   padding: 0px 15px 65px 15px;
   align-items: center;
@@ -127,7 +128,7 @@
 }
 .form-body {
   padding: 30px 50px 70px 50px;
-  width: 280px;
+  width: 240px;
 }
 .axit-formname {
   margin: auto;
@@ -215,4 +216,113 @@ input {
   align-items: center;
   color: #bdbdbd;
   margin-top: 25px;
+}
+@media (max-width: 871px) {
+  .axit-container {
+    max-width: 783px !important;
+    margin: auto !important;
+    padding-top: 70px;
+  }
+  .axit-form {
+    max-width: 315px;
+  }
+  .form-body {
+    padding: 30px 50px 70px 45px;
+    width: 225px;
+  }
+  .logo-left {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .logo-right {
+    font-size: 50px;
+    line-height: 60px;
+  }
+  .axit-title {
+    font-size: 32px !important;
+    line-height: 38px !important;
+    padding-top: 50px;
+    max-width: 500px;
+  }
+}
+@media (max-width: 780px) {
+  .axit-container {
+    display: flex;
+    justify-content: center;
+    max-width: 702px !important;
+    margin: auto !important;
+    padding-top: 50px;
+  }
+  .axit-main_left {
+     max-width: 100% !important;
+  }
+  .axit-main_right {
+    margin-top: 60px;
+    max-width: 100% !important;
+  }
+  .logo-left {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .logo-right {
+    font-size: 40px;
+    line-height: 50px;
+  }
+  .axit-title {
+    text-align: center;
+    font-size: 28px !important;
+    line-height: 34px !important;
+    padding-top: 35px;
+    max-width: 70%;
+    margin: auto;
+  }
+  .axit-title::after {
+    margin: auto;
+    margin-top: 30px;
+  }
+  .axit-description {
+    margin-top: 30px;
+  }
+  .axit-text {
+    font-size: 18px;
+    text-align: center;
+    max-width: 60%;
+    margin: auto;
+  }
+  .axit-button {
+    max-width: none;
+    margin: auto;
+    margin-top: 35px;
+  }
+  .formname {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .axit-form_button {
+    font-size: 14px;
+    line-height: 18px;
+  }
+}
+@media (max-width: 524px) {
+  .axit-container {
+    display: flex;
+    justify-content: center;
+    max-width: 471px !important;
+    margin: auto !important;
+    padding-top: 40px;
+  }
+  .button-download {
+    font-size: 12px;
+    line-height: 38px;
+  }
+  .form-body {
+    padding: 30px 50px 70px 50px;
+    width: 160px;
+  }
+  .formname {
+    font-size: 18px;
+    line-height: 20px;
+    margin: auto;
+    margin-top: 15px;
+  }
 }

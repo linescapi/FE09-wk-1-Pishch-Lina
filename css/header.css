@@ -25,7 +25,7 @@
 }
 .logo-it {
   text-align: center;
-  margin-right: 110px;
+  margin-right: 15px;
   font-family: 'Roboto', sans-serif;
   font-style: normal;
   font-weight: normal;
@@ -36,7 +36,6 @@
 }
 .navigation {
  text-align: right;
- margin-right: -15px;
 }
 a {
   font-family: 'Open Sans', sans-serif; 
@@ -47,16 +46,11 @@ a {
   text-align: center;
   color: rgba(255, 255, 255, 0.7);
 }
-/*nav {
-  float: right;
-  padding-top: 10px;
-}*/
 .navigation-list {
   margin: auto;
   display: flex;
   flex-direction: row-reverse;
   flex-wrap: wrap;
-  text-align: right;
   align-items: flex-end;
   justify-content: space-between;
 }
@@ -66,4 +60,91 @@ a {
 a:hover {
   border-bottom: 1px solid rgba(255, 255, 255, 0.7);
   color: rgba(255, 255, 255, 0.7);
+}
+@media (max-width: 871px) {
+  .header-container {
+    max-width: 783px !important;
+    margin: auto !important;
+  }
+}
+@media (max-width: 780px) {
+  .header-container {
+    max-width: 702px !important;
+    margin: auto !important;
+  }
+}
+@media (max-width: 616px) {
+  .header-container {
+    max-width: 555px !important;
+    margin: auto !important;
+  }
+  .nav-list {
+    margin: 0 15px 0 15px;
+  }
+}
+@media (max-width: 524px) {
+  .header-container {
+    max-width: 471px !important;
+    margin: auto !important;
+  }
+  .nav-item {
+    font-size: 12px;
+    line-height: 16px;
+  }
+  .logo-axit {
+    font-size: 25px;
+    line-height: 40px;
+  }
+  .logo-it {
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 460px) {
+  .header-container {
+    max-width: 412px !important;
+    margin: auto !important;
+  }
+  .nav-item {
+    font-size: 10px;
+    line-height: 14px;
+  }
+  .logo-axit {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .logo-it {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .nav-list {
+    margin: 0 7px 0 7px;
+  }
+  .navigation {
+    margin-right: 7px;
+  }
+}
+@media (max-width: 337px) {
+  .header-container {
+    max-width: 303px !important;
+    margin: auto !important;
+  }
+  .logo-axit {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .logo-it {
+    font-size: 15px;
+    line-height: 20px;
+  }
+  .nav-item {
+    font-size: 8px;
+    line-height: 12px;
+  }
+  .nav-list {
+    margin: 0 5px 0 5px;
+  }
+  .navigation {
+    margin-right: 7px;
+  }
 }

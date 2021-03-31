@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@100;200;300;400;600;700&family=Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700&family=Raleway:wght@100;200;300;400;600;700&family=Roboto&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
@@ -16,30 +16,30 @@
             <div class="header-logo">
                 <a class="logo-header" href="#"><h3 class="logo-axit">ax<span class="logo-it">it</span></h3></a>
             </div>
+            <!--У меня пока не получилось сделать бургер меню. Сделаю позже, как разберусь-->
            <nav class="navigation">
              <ul class="navigation-list">
-              <li class="list-nav nav-list"><a href="#">Contact</a></li>
-              <li class="list-nav nav-list"><a href="#">Reviews</a></li>
-              <li class="list-nav nav-list"><a href="#">Pricing</a></li>
-              <li class="list-nav nav-list"><a href="#">About</a></li>
-              <li class="list-nav nav-list"><a href="#">Feautures</a></li>
+              <li class="list-nav nav-list"><a class="nav-item" href="#">Contact</a></li>
+              <li class="list-nav nav-list"><a class="nav-item" href="#">Reviews</a></li>
+              <li class="list-nav nav-list"><a class="nav-item" href="#">Pricing</a></li>
+              <li class="list-nav nav-list"><a class="nav-item" href="#">About</a></li>
+              <li class="list-nav nav-list"><a class="nav-item" href="#">Feautures</a></li>
              </ul>
            </nav>
         </div>
-      </header>
+    </header>
    <section class="axit">
       <div class="filter">
         <div class="container axit-container">
             <div class="axit-main_left">
                 <div class="axit-logo">
-                    <h1 class="logo-left">ax</h1>
-                    <h1 class="logo-right">it</h1>
+                    <h1 class="logo-left">ax<span class="logo-right">it</span></h1>
                 </div>
                 <h2 class="title axit-title">modern axure template for beautiful prototypes</h2>
                 <div class="description axit-description"><p class="axit-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aliquam, beatae?</p></div>
                 <div class="axit-button"><button class="axit-download"><a class="button-download" href="#">Download</a></button></div>
             </div>  
-           <div class="axit-main_right">
+            <div class="axit-main_right">
                 <form class="axit-form" action="#" name="form-axit">
                     <div class="axit-formname">
                         <h4 class="formname">Try Your <span class="middle">free</span> Trial Today</h4>
@@ -66,16 +66,16 @@
                     </div>
                     <button class="axit-form_button"><a class="button-start" href="#">Get Started</a></button></button>
                 </form>
-           </div>
+            </div>
          </div>
       </div>
    </section>   
    <section class="social-media">
     <div class="container social-container">
-         <div class="social-info">
+        <div class="social-info">
             <h4 class="socialm-title">Social Media</h4>
             <p class="social-description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iure provident fuga animi!</p>
-         </div>
+        </div>
           <div class="media-list">
             <div class="media-icons">
                 <ul class="social_media-list">
@@ -106,14 +106,15 @@
         </div>
         <div class="tabs-description">
             <div class="tabs-head"><h5 class="t-head">Tabs with soft transitioning effect.</h5></div>
-            <div class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes. <br><br><br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</div>
-            <button class="t-button tabs-button"><a class="button-tab_download" href="#">Download</a></button></button>
+            <div class="description-body">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet. Proin gravida dolor sit amet lacus accumsan et viverra justo commodo. Proin sodales pulvinar tempor. Cum sociis natoque penatibus et magnis dis parturient montes.</div>
+            <div class="description-body_buttom">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean euismod bibendum laoreet.</div>
+            <div class="tabs-button_container"><button class="t-button tabs-button"><a class="button-tab_download" href="#">Download</a></button></div>
         </div>
-        <div class="tabs-picture"><img src="../images/tab_pic.png" alt="tabs-pic"></div>
+        <div class="tabs-picture"><img id="pic-tab" src="../images/tab_pic.png" alt="tabs-pic"></div>
      </div>
  </section>
     <section class="awesome">
-        <div class="container social-media-container">
+        <div class="container awesome-container">
             <h2 class="title awesome-title">why this is awesome</h2>
             <div class="description awesome-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>
          <div class="awesome-row">
@@ -195,49 +196,49 @@
         </div>    
     </section>
     <section class="customers">
-      <div class="container">
+      <div class="container customers-container">
         <h2 class="title customers-title">what our customers are saying</h2>
-          <div class="description customers-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div> 
-      </div> 
-      <div class="customers-row">
-          <div class="item customers-item">
-              <div class="text"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci dicta sed quo, inventore consequatur veniam laboriosam quas facere nemo veritatis.</p></div>
-             <div class="info">
-              <div class="customers-image">
-                  <img src="../images/avatar.png" alt="avatar">
-              </div>
-              <div class="customer-card">
-                <h4 class="name customer-name">Jeremy H.</h4>
-                <p class="status">Manager</p>
-            </div>
-             </div>
-          </div>
-          <div class="item customers-item">
+        <div class="description customers-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit.</div>  
+    <div class="customers-row">
+        <div class="item customers-item">
             <div class="text"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci dicta sed quo, inventore consequatur veniam laboriosam quas facere nemo veritatis.</p></div>
-            <div class="info">
+           <div class="info">
             <div class="customers-image">
                 <img src="../images/avatar.png" alt="avatar">
             </div>
             <div class="customer-card">
-                <h4 class="name customer-name">Jeremy H.</h4>
-                <p class="status">Manager</p>
-            </div>
-            </div>
+              <h4 class="name customer-name">Jeremy H.</h4>
+              <p class="status">Manager</p>
+          </div>
+           </div>
         </div>
         <div class="item customers-item">
-            <div class="text"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci dicta sed quo, inventore consequatur veniam laboriosam quas facere nemo veritatis.</p></div>
-            <div class="info">
-                <div class="customers-image">
-                    <img src="../images/avatar.png" alt="avatar">
-                </div>
-                <div class="customer-card">
-                    <h4 class="name customer-name">Jeremy H.</h4>
-                    <p class="status">Manager</p>
-                </div>
-                </div>
-            </div>    
-        </div>
-        </div>
+          <div class="text"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci dicta sed quo, inventore consequatur veniam laboriosam quas facere nemo veritatis.</p></div>
+          <div class="info">
+          <div class="customers-image">
+              <img src="../images/avatar.png" alt="avatar">
+          </div>
+          <div class="customer-card">
+              <h4 class="name customer-name">Jeremy H.</h4>
+              <p class="status">Manager</p>
+          </div>
+          </div>
+      </div>
+      <div class="item customers-item">
+          <div class="text"><p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Adipisci dicta sed quo, inventore consequatur veniam laboriosam quas facere nemo veritatis.</p></div>
+          <div class="info">
+              <div class="customers-image">
+                  <img src="../images/avatar.png" alt="avatar">
+              </div>
+              <div class="customer-card">
+                  <h4 class="name customer-name">Jeremy H.</h4>
+                  <p class="status">Manager</p>
+              </div>
+              </div>
+          </div>    
+      </div>
+      </div>
+    </div>
       </div>
     </section>
     <section class="axure">

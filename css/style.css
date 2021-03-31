@@ -56,3 +56,15 @@ footer {
 input {
     line-height: normal;
 }
+@media (max-width: 780px) {
+    .title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+}
+@media (max-width: 390px) {
+    .title {
+        font-size: 30px;
+        line-height: 36px;
+    }
+}

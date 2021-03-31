@@ -8,6 +8,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 .tabs-column {
   display: flex;
@@ -15,12 +16,15 @@
   justify-content: space-between;
 }
 .tab-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 110px;
+  height: 110px;
   margin: 5px 15px;
   background-color: #333;
   border: 1px solid #333;
   border-radius: 4px;
-  text-align: center;
-  padding: 45px 35px;
   transition: 0.3s ease;
 }
 .tab-item:hover {
@@ -50,11 +54,12 @@
   color: #000000;
 }
 .tabs-description {
+  max-width: 50%;
   display: flex;
   flex-direction: column;
 }
 .description-body {
-  margin: 57px 15px 57px 15px;
+  margin: 57px 15px 0px 15px;
   max-width: 572px;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
@@ -65,15 +70,32 @@
   text-transform: uppercase;
   color: #86878B;
 }
-.t-button {
-  max-width: 135px;
+.description-body_buttom {
+  margin: 37px 15px 57px 15px;
+  max-width: 572px;
+  font-family: 'Open Sans', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: left;
+  text-transform: uppercase;
+  color: #86878B;
+}
+.tabs-button_container {
+  display: flex;
+  align-items: left;
+  margin-top: 32px;
   text-align: center;
+}
+.t-button {
   transition: 0.3s ease;
 }
 .t-button:hover {
   transform: scale(1.2, 1.2);
 }
 .tabs-button {
+  margin: 0 15px;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 600;
@@ -81,13 +103,11 @@
   line-height: 42px;
   color: #fff;
   text-align: center;
-  margin: auto;
   background-color:  #ec7979;
   border: 1px solid  #ec7979;
   box-sizing: border-box;
   padding: 0 26px 0 26px;
   outline: none;
-  margin: 32px 15px 0px 15px;
   justify-content: flex-end;
 }
 .button-tab_download {
@@ -96,4 +116,79 @@
 .button-tab_download:hover {
   color: #fff;
     border: none;
+}
+.tabs-picture {
+  margin: 15px 15px 0px 15px;
+}
+@media (max-width: 984px) {
+  .tabs-container {
+    padding-top: 75px;
+    max-width: 885px !important;
+    margin: auto !important;
+  }
+  .t-head {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .description-body, .description-body_buttom {
+    font-size: 12px;
+    line-height: 17px;
+  }
+  .tabs-description {
+    max-width: 43%;
+  }
+}
+@media (max-width: 871px) {
+  .tabs {
+    padding-bottom: 70px;
+  }
+  .tabs-container {
+    max-width: 783px !important;
+    margin: auto !important;
+    display: flex;
+    flex-direction: column;
+    padding-top: 70px;
+  }
+  .tabs-column {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .tabs-description {
+    margin: auto;
+    margin-top: 15px;
+    max-width: 100%;
+  }
+  .t-head {
+    margin-top: 30px;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+  }
+  .description-body, .description-body_buttom {
+    font-size: 14px;
+    line-height: 19px;
+    text-align: center;
+  }
+  .tabs-button_container {
+    margin: auto;
+    margin-top: 15px;
+  }
+  .tabs-picture {
+    margin: auto;
+    margin-top: 55px;
+  }
+}
+@media (max-width: 524px) {
+  .tabs-button {
+    font-size: 18px;
+    line-height: 40px;
+  }
+}
+@media (max-width: 390px) {
+  #pic-tab {
+    width: 310px;
+    height: 245px;
+  }
 }
